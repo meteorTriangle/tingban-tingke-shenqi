@@ -1,0 +1,1 @@
+javascript:var c = document.getElementsByTagName("td"); for (let index = 0; index < c.length; index++) { const element = c[index]; if (element.headers == 'StopWorkSchool_Info') { element.innerHTML = '<font color="#FF0000">明天停止上班、停止上課。  </font>'; } }
