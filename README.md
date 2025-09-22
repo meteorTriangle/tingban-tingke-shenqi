@@ -20,7 +20,7 @@
 2. 複製下列文字
 3. 編輯步驟1之書籤，將網址更改為步驟2複製之文字
 ```js
-javascript: fetch("https://raw.githubusercontent.com/meteorTriangle/tingban-tingke-shenqi/refs/heads/main/TTS.txt").then(response => response.text()).then(data => {    var ca = "javascript: "+ data;    window.location.href = ca;});
+javascript: fetch("https://raw.githubusercontent.com/meteorTriangle/tingban-tingke-shenqi/refs/heads/main/TTS.txt").then(response => response.text()).then(data => {window.location.href = data;});
 ```
 4. 開啟網站[行政院人事行政總處 全球資訊網](https://www.dgpa.gov.tw/typh/daily/nds.html)
 5. 選擇剛剛所編輯完的書籤
